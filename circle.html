@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .con{
+        width: 50vw;
+        height: 90vh;
+        border: 2px solid;
+        position: relative;
+    }
+    .ul{
+        width: 70vw;
+        height:55vh;
+        background-color: white;
+    }
+    .l1{
+        height: 46vh;
+        background-color: black;
+        position:relative;
+        top: 220px;
+    }
+    .cir{
+        width: 10vh;
+        height: 10vh;
+        padding: 49px;
+        border: 30px white solid;
+        background-color:red;
+        border-radius: 60%;
+        position: absolute;
+        top: 140px;
+        left: 250px;
+    }
+    .cir::before{
+        width: 10vw;
+        height: 25vh;
+        content: '';
+        font-size: 70px;
+        background-color: white;
+        position: absolute;
+        right: 220px;
+        
+        
+    }
+    .cir::after{
+        width: 10vw;
+        height: 25vh;
+        content: '';
+        font-size: 70px;
+        background-color: white;
+        position: absolute;
+        left: 220px;
+        
+    }
+
+</style>
+<body>
+    <div class="con"><br>
+        <div class="u1"></div><br>
+        <div class="l1"></div>
+        <div class="cir"></div>
+    </div>
+</body>
+</html>
